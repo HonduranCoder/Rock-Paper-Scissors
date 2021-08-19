@@ -34,7 +34,7 @@ let percent =0;
     
     if (userChoice === gamePlay) {
         // eslint-disable-next-line no-const-assign
-        draws++;
+        draw++;
         draws.textContent = draws;
     } else if (doesUserWin(userChoice, gamePlay) === true) {
         wins++;
